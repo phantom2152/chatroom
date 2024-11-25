@@ -1,0 +1,22 @@
+{
+  "name": "chat-room",
+  "version": "1.0.0",
+  "description": "A socket based chat room",
+  "main": "backend/server.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1",
+    "unique-names-generator": "^4.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
